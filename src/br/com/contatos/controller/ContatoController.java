@@ -66,8 +66,7 @@ public class ContatoController implements Initializable {
 
 		preencherLista();
 
-		//String contato = txtNome.getText() + " - " + txtTel.getText();
-		//lstcontatos.getItems().add(contato);
+
 
 	}
 
@@ -75,7 +74,7 @@ public class ContatoController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		// TODO Auto-generated method stub
 		preencherLista();
-		
+
 	}
 
 }
