@@ -5,22 +5,23 @@ import java.sql.DriverManager;
 
 public class MySqlConnect {
 
-	
+
 		public static Connection ConectarDb(){
-			
+
 			Connection con = null;
-			
+
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				
-				con = DriverManager.getConnection("jdbc:mysql://10.107.134.56/contatos", "root", "root");
-				
+
+				con = DriverManager.getConnection("jdbc:mysql://10.107.144.59/contatos", "root", "root");
+
+
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 			return con;
 		}
-	
+
 }

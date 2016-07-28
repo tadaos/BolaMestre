@@ -13,21 +13,19 @@
             <Font size="31.0" />
          </font>
       </Label>
-      <TextField fx:id="txtNome" layoutX="53.0" layoutY="54.0" prefHeight="45.0" prefWidth="190.0" promptText="Nome">
+      <TextField fx:id="txtNome" layoutX="55.0" layoutY="46.0" prefHeight="45.0" prefWidth="190.0" promptText="Nome">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtTel" layoutX="53.0" layoutY="106.0" prefHeight="45.0" prefWidth="190.0" promptText="Telefone">
+      <TextField fx:id="txtTel" layoutX="53.0" layoutY="99.0" prefHeight="45.0" prefWidth="190.0" promptText="Telefone">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="btn" layoutX="91.0" layoutY="155.0" mnemonicParsing="false" onAction="#inserirContato" prefHeight="45.0" prefWidth="101.0" text="Inserir">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Button>
+      <Button fx:id="btn" layoutX="53.0" layoutY="155.0" mnemonicParsing="false" onAction="#inserirContato" prefHeight="26.0" prefWidth="61.0" text="Inserir" />
       <ListView fx:id="lstcontatos" layoutX="31.0" layoutY="218.0" prefHeight="182.0" prefWidth="240.0" />
+      <Button fx:id="btndel" layoutX="118.0" layoutY="155.0" mnemonicParsing="false" onAction="#deletarContato" prefHeight="26.0" prefWidth="61.0" text="Deletar" />
+      <Button fx:id="btnedit" layoutX="184.0" layoutY="155.0" mnemonicParsing="false" onAction="#editarContato" prefHeight="26.0" prefWidth="61.0" text="Editar" />
    </children>
 </AnchorPane>
